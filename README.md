@@ -25,13 +25,13 @@ cairo-profiler:
 
 ```shell
 # Show all installable versions
-asdf list-all cairo-profiler
+asdf list all cairo-profiler
 
 # Install specific version
 asdf install cairo-profiler latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global cairo-profiler latest
+asdf set --home cairo-profiler latest
 
 # Now cairo-profiler commands are available
 cairo-profiler --help
